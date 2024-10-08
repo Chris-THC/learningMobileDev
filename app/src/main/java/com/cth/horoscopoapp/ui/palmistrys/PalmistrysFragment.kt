@@ -6,8 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.cth.horoscopoapp.databinding.FragmentPalmistrysBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class PalmistrysFragment : Fragment() {
     private var _binding: FragmentPalmistrysBinding? = null
     private val binding get() = _binding!!
